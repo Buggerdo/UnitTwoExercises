@@ -11,12 +11,7 @@ namespace UnitTwo
         public ExerciseTwo()
         {
             ExTwoDesc();
-            int x;
-            do
-            {
-                Console.Clear();
-                Console.Write("Please enter a number: ");
-            } while(!int.TryParse(Console.ReadLine(), out x));
+            int x = Tools.GetInt();
             Console.WriteLine(++x);
         }
 

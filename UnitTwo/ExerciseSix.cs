@@ -10,15 +10,12 @@ namespace UnitTwo
     {
         public ExerciseSix()
         {
-            string response;
             ExSixDesc();
             do
             {
                 Console.Clear();
                 Console.WriteLine("Hello, World!");
-                Console.Write("Would you like to continue (y/n)? ");
-                response = Console.ReadLine().ToLower().Trim();
-            } while(response == "y" || response == "yes");
+            } while(Tools.IsYes());
         }
 
         private static void ExSixDesc()

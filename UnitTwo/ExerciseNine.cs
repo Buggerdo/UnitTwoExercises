@@ -33,10 +33,7 @@ namespace UnitTwo
                         Console.WriteLine("Invalid response");
                         break;
                 }
-                Console.Write("Do you want to continue? ");
-                response = Console.ReadLine().ToLower().Trim();
-                Console.Clear();
-            } while(response == "yes" || response == "y");
+            } while(Tools.IsYes());
         }
 
         private static void ExNineDesc()

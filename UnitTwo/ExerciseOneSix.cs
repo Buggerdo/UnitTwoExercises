@@ -12,10 +12,8 @@ namespace UnitTwo
         public ExerciseOneSix()
         {
             ExOneSixDesc();
-            Console.Write("Please enter the first number: ");
-            int diviOne = int.Parse(Console.ReadLine());
-            Console.Write("Please enter the second number: ");
-            int diviTwo = int.Parse(Console.ReadLine());
+            int diviOne = Tools.GetInt("Please enter the first number: ");
+            int diviTwo = Tools.GetInt("Please enter the second number: ");
             Console.WriteLine($"The result is {diviOne / diviTwo}");
         }
 

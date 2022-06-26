@@ -11,10 +11,8 @@ namespace UnitTwo
         public ExerciseFour()
         {
             ExFourDesc();
-            Console.Write("Please enter the first number: ");
-            float numberOne = float.Parse(Console.ReadLine());
-            Console.Write("Please enter the second number: ");
-            float numberTwo = float.Parse(Console.ReadLine());
+            float numberOne = Tools.GetFloat("Please enter the first number: ");
+            float numberTwo = Tools.GetFloat("Please enter the second number: ");
             Console.WriteLine($"The sum is {numberOne + numberTwo}");
         }
 

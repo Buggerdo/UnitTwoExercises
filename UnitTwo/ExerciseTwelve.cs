@@ -18,12 +18,7 @@ namespace UnitTwo
                 {
                     Console.Write(i + " ");
                 }
-                Console.WriteLine("\nPress any key to continue");
-                Console.ReadKey();
-                Console.Clear();
-                Console.Write("Would you like to continue (y/n)? ");
-
-            } while(Console.ReadLine().ToLower().Trim() == "y");
+            } while(Tools.IsYes());
         }
 
         private static void ExTwelveDesc()

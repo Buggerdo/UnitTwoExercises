@@ -11,10 +11,8 @@ namespace UnitTwo
         public ExerciseFive()
         {
             ExFiveDesc();
-            Console.Write("Please enter the first number: ");
-            float multOne = float.Parse(Console.ReadLine());
-            Console.Write("Please enter the second number: ");
-            float multTwo = float.Parse(Console.ReadLine());
+            float multOne = Tools.GetFloat("Please enter the first number: ");
+            float multTwo = Tools.GetFloat("Please enter the second number: ");
             Console.WriteLine($"The product is {multOne * multTwo}");
         }
 

@@ -12,12 +12,7 @@ namespace UnitTwo
         {
 
             ExThreeDesc();
-            float x;
-            do
-            {
-                Console.Clear();
-                Console.Write("Please enter a number: ");
-            } while(!float.TryParse(Console.ReadLine(), out x));
+            float x = Tools.GetFloat();
             Console.WriteLine(x + 0.5);
         }
 

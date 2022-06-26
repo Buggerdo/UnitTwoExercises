@@ -26,29 +26,25 @@ namespace UnitTwo
                     do
                     {
                         _ = new ExerciseTwo();
-                        response = Loop();
-                    } while(response == "y" || response == "yes");
+                    } while(Tools.IsYes());
                     break;
                 case "3":
                     do
                     {
                         _ = new ExerciseThree();
-                        response = Loop();
-                    } while(response == "y" || response == "yes");
+                    } while(Tools.IsYes());
                     break;
                 case "4":
                     do
                     {
                         _ = new ExerciseFour();
-                        response = Loop();
-                    } while(response == "y" || response == "yes");
+                    } while(Tools.IsYes());
                     break;
                 case "5":
                     do
                     {
                         _ = new ExerciseFive();
-                        response = Loop();
-                    } while(response == "y" || response == "yes"); ;
+                    } while(Tools.IsYes()); ;
                     break;
                 default:
                     _ = new ExerciseEight();
@@ -56,11 +52,6 @@ namespace UnitTwo
             }
         }
 
-        private static string Loop()
-        {
-            Console.Write("Would you like to continue (y/n)? ");
-            return Console.ReadLine().ToLower().Trim();
-        }
 
         private static void ExEightDesc()
         {

@@ -28,12 +28,8 @@ namespace UnitTwo
                 {
                     Console.WriteLine("Great, you can ride the Raptor!");
                 }
-                Console.WriteLine("Press any key to continue");
-                Console.ReadKey();
-                Console.Clear();
-                Console.Write("Would you like to continue (y/n)? ");
 
-            } while(Console.ReadLine().ToLower().Trim() == "y");
+            } while(Tools.IsYes());
         }
 
 
