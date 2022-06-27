@@ -28,7 +28,7 @@ namespace UnitTwo
 
         private static void ExThirteenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user for a number. Use a for loop to output all the numbers from that number to 0.");
+            Description.DescriptionCall("Prompt the user for a number. Use a for loop to output all the numbers from that number to 0.");
         }
     }
 }

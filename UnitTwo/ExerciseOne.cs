@@ -17,7 +17,7 @@ namespace UnitTwo
 
         private static void ExOneDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a string.\nAfter the user enters a string, output the same string back to the console.");
+            Description.DescriptionCall("Prompt the user to enter a string.\nAfter the user enters a string, output the same string back to the console.");
         }
     }
 }

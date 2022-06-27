@@ -28,7 +28,7 @@ namespace UnitTwo
         }
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter text.  Remove all the vowels and output the text.");
+            Description.DescriptionCall("Prompt the user to enter text.  Remove all the vowels and output the text.");
         }
     }
 }

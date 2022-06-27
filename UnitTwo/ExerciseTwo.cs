@@ -17,7 +17,7 @@ namespace UnitTwo
 
         private static void ExTwoDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nAfter the user enters a number, add 1 to the number and output it back to the console.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nAfter the user enters a number, add 1 to the number and output it back to the console.");
         }
     }
 }

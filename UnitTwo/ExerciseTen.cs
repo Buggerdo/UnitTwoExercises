@@ -35,7 +35,7 @@ namespace UnitTwo
 
         public static void ExTenDesc()
         {
-            Discription.DiscriptionCall("Determine whether the user is tall enough to ride a roller coaster." +
+            Description.DescriptionCall("Determine whether the user is tall enough to ride a roller coaster." +
                 "\nPrompt the user to enter her height in inches." +
                 "\nIf she is less than 54 inches tall, notify her that she cannot ride the Raptor." +
                 "\nIf she is at least 54 inches tall, notify her that she can ride the Raptor.");

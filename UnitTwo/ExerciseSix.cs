@@ -20,7 +20,7 @@ namespace UnitTwo
 
         private static void ExSixDesc()
         {
-            Discription.DiscriptionCall("Use a do-while Loop to output \"Hello, World!\" in a Loop.\nEach time you output" +
+            Description.DescriptionCall("Use a do-while Loop to output \"Hello, World!\" in a Loop.\nEach time you output" +
                 " \"Hello, World!\" ask the user whether they would like to continue.");
         }
     }

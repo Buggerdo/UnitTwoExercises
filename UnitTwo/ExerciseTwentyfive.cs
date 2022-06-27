@@ -26,7 +26,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a sentence.\nSplit the sentence into individual words and display each word on its own line.");
+            Description.DescriptionCall("Prompt the user to enter a sentence.\nSplit the sentence into individual words and display each word on its own line.");
         }
     }
 }

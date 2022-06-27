@@ -40,7 +40,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter two numbers that will determine a range.\n" +
+            Description.DescriptionCall("Prompt the user to enter two numbers that will determine a range.\n" +
                 "Then prompt the user to enter another number and check if it is in the range.");
         }
     }

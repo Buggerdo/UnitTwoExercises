@@ -21,7 +21,7 @@ namespace UnitTwo
 
         private static void ExFifteenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user for a number. Use a for loop to output the cubes of all the numbers from 1 to that number.");
+            Description.DescriptionCall("Prompt the user for a number. Use a for loop to output the cubes of all the numbers from 1 to that number.");
         }
     }
 }

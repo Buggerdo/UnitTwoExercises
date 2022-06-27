@@ -23,7 +23,7 @@ namespace UnitTwo
 
         private static void ExElevenDesc()
         {
-            Discription.DiscriptionCall("Use a for loop to output all the numbers from 0 to 9.");
+            Description.DescriptionCall("Use a for loop to output all the numbers from 0 to 9.");
         }
     }
 }

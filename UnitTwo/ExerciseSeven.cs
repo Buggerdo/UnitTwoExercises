@@ -20,7 +20,7 @@ namespace UnitTwo
 
         private static void ExSevenDesc()
         {
-            Discription.DiscriptionCall("Use a do-while Loop to run exercise 1 in a Loop." +
+            Description.DescriptionCall("Use a do-while Loop to run exercise 1 in a Loop." +
                 "\nEach time you run the code ask the user whether they would like to continue.");
         }
 

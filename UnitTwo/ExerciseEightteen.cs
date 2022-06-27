@@ -31,7 +31,7 @@ namespace UnitTwo
 
         private static void ExEightteenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nUse a for-loop to calculate the sum of all the numbers from 1 to the number entered.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nUse a for-loop to calculate the sum of all the numbers from 1 to the number entered.");
         }
     }
 }

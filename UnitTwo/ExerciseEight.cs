@@ -55,7 +55,7 @@ namespace UnitTwo
 
         private static void ExEightDesc()
         {
-            Discription.DiscriptionCall("Make exercises 2-5 run in a Loop. Use a do-while Loop to run the code in a Loop.\n" +
+            Description.DescriptionCall("Make exercises 2-5 run in a Loop. Use a do-while Loop to run the code in a Loop.\n" +
                 "Each time you run the code ask the user whether they would like to continue.");
         }
     }

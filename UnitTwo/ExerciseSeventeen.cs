@@ -36,7 +36,7 @@ namespace UnitTwo
 
         private static void ExSeventeenDesc()
         {
-            Discription.DiscriptionCall("Use a for loop to output a triangle of asterisks with a height of ten.");
+            Description.DescriptionCall("Use a for loop to output a triangle of asterisks with a height of ten.");
         }
     }
 }

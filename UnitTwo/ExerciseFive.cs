@@ -18,7 +18,7 @@ namespace UnitTwo
 
         private static void ExFiveDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nAfter the user enters the numbers, multiply them and output the product back to the console.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nAfter the user enters the numbers, multiply them and output the product back to the console.");
         }
     }
 }

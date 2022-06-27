@@ -18,7 +18,7 @@ namespace UnitTwo
 
         private static void ExFourDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nAfter the user enters the numbers, add them together and output the sum back to the console.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nAfter the user enters the numbers, add them together and output the sum back to the console.");
         }
     }
 }

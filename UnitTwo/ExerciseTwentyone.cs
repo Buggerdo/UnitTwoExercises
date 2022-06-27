@@ -25,7 +25,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a series of words." +
+            Description.DescriptionCall("Prompt the user to enter a series of words." +
                 "\nOnce the user is done entering the words, output a sentence containing all the words.");
         }
     }

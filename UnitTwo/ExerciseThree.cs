@@ -13,12 +13,12 @@ namespace UnitTwo
 
             ExThreeDesc();
             float x = Tools.GetFloat();
-            Console.WriteLine(x + 0.5);
+            Console.WriteLine(x + 0.5f);
         }
 
         private static void ExThreeDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nAfter the user enters a number, add .5 to the number and output it back to the console.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nAfter the user enters a number, add .5 to the number and output it back to the console.");
         }
     }
 }

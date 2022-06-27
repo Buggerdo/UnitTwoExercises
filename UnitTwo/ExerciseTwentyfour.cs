@@ -21,7 +21,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a string.  Extract and output the last ten characters of the string.");
+            Description.DescriptionCall("Prompt the user to enter a string.  Extract and output the last ten characters of the string.");
         }
     }
 }

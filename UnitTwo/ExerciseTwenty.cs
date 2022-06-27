@@ -24,7 +24,7 @@ namespace UnitTwo
 
         private static void ExNineteenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a number.\nUse a for-loop to calculate the product of the number and the two preceding numbers.");
+            Description.DescriptionCall("Prompt the user to enter a number.\nUse a for-loop to calculate the product of the number and the two preceding numbers.");
         }
     }
 }

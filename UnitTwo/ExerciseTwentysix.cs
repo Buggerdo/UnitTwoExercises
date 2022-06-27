@@ -27,7 +27,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter text.\nCount and output how many vowels are in the string.");
+            Description.DescriptionCall("Prompt the user to enter text.\nCount and output how many vowels are in the string.");
         }
     }
 }

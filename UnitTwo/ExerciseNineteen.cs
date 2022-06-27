@@ -44,7 +44,7 @@ namespace UnitTwo
 
         private static void ExNineteenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter two numbers.\nUse a for-loop to calculate the sum of all the numbers from the first number entered to the second.");
+            Description.DescriptionCall("Prompt the user to enter two numbers.\nUse a for-loop to calculate the sum of all the numbers from the first number entered to the second.");
         }
     }
 }

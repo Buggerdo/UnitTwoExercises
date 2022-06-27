@@ -28,7 +28,7 @@ namespace UnitTwo
 
         private static void Desc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter text.  Count and output how many consonants are in the string.");
+            Description.DescriptionCall("Prompt the user to enter text.  Count and output how many consonants are in the string.");
         }
     }
 }

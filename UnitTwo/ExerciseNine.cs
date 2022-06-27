@@ -38,7 +38,7 @@ namespace UnitTwo
 
         private static void ExNineDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a language." +
+            Description.DescriptionCall("Prompt the user to enter a language." +
                 "\nBased on the language the user input, display \"Hello, World!\" in that language. " +
                 "\nUse a switch statement to choose what to display.");
         }

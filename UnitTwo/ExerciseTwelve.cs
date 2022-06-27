@@ -23,7 +23,7 @@ namespace UnitTwo
 
         private static void ExTwelveDesc()
         {
-            Discription.DiscriptionCall("Output all the numbers from 9 to 0. Use a for loop to output all the numbers from 9 to 0.");
+            Description.DescriptionCall("Output all the numbers from 9 to 0. Use a for loop to output all the numbers from 9 to 0.");
         }
     }
 }

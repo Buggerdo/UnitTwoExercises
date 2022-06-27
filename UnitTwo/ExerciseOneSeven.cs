@@ -39,7 +39,7 @@ namespace UnitTwo
 
         private static void ExOneSevenDesc()
         {
-            Discription.DiscriptionCall("Prompt the user to enter a boolean. Write out the boolean value, and then write out the opposite of the boolean variable.");
+            Description.DescriptionCall("Prompt the user to enter a boolean. Write out the boolean value, and then write out the opposite of the boolean variable.");
         }
     }
 }

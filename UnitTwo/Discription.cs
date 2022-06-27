@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace UnitTwo
 {
-    internal class Discription
+    internal class Description
     {
-        public static void DiscriptionCall(string discription)
+        public static void DescriptionCall(string description)
         {
             Console.Clear();
-            Console.WriteLine(discription);
+            Console.WriteLine(description);
             Console.WriteLine("\nPress any key to continue");
             Console.ReadKey();
             Console.Clear();
