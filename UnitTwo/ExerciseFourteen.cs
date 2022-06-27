@@ -11,7 +11,13 @@ namespace UnitTwo
 
         public ExerciseFourteen()
         {
+            ExFourteenDesc();
             int number = Tools.GetInt();
+            for(int i = 1; i <= number; i++)
+            {
+                Console.Write(Math.Pow(i , 2) + " ");
+            }
+            Console.WriteLine();
         }
 
         private static void ExFourteenDesc()

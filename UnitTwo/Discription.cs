@@ -14,7 +14,7 @@ namespace UnitTwo
             Console.WriteLine(discription);
             Console.WriteLine("\nPress any key to continue");
             Console.ReadKey();
-            Console.Clear(); //
+            Console.Clear();
         }
     }
 }

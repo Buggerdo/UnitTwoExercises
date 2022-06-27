@@ -58,17 +58,21 @@ namespace UnitTwo
         {
             Console.WriteLine("\nPress any key to continue");
             Console.ReadKey();
-            Console.Clear();
-            Console.Write("Would you like to continue (y/n)? ");
-            string awnser = Console.ReadLine().ToLower().Trim();
-            if(awnser == "y" || awnser == "yes" || awnser == "yup")
+            do
             {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+                Console.Clear();
+                Console.Write("Would you like to continue (y/n)? ");
+                string awnser = Console.ReadLine().ToLower().Trim();
+                Console.Clear();
+                if(awnser == "y" || awnser == "yes" || awnser == "yup")
+                {
+                    return true;
+                }
+                else if(awnser == "n" || awnser == "no" || awnser == "nope")
+                {
+                    return false;
+                } 
+            } while(true);
         }
     }
 }

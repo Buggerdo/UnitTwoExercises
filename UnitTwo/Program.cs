@@ -66,22 +66,22 @@ namespace UnitTwo
                     _ = new ExerciseFourteen();
                     break;
                 case "15":
-                    _ = new ExerciseFive();
+                    _ = new ExerciseFifteen();
                     break;
                 case "16":
-                    _ = new ExerciseSix();
+                    _ = new ExerciseSixteen();
                     break;
                 case "17":
-                    _ = new ExerciseSeven();
+                    _ = new ExerciseSeventeen();
                     break;
                 case "18":
-                    _ = new ExerciseEight();
+                    _ = new ExerciseEightteen();
                     break;
                 case "19":
-                    _ = new ExerciseNine();
+                    _ = new ExerciseNineteen();
                     break;
                 case "20":
-                    _ = new ExerciseTen();
+                    _ = new ExerciseTwenty();
                     break;
                 default:
                     break;
