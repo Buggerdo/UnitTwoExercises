@@ -83,6 +83,33 @@ namespace UnitTwo
                 case "20":
                     _ = new ExerciseTwenty();
                     break;
+                case "21":
+                    _ = new ExerciseTwentyone();
+                    break;
+                case "22":
+                    _ = new ExerciseTwentytwo();
+                    break;
+                case "23":
+                    _ = new ExerciseTwentythree();
+                    break;
+                case "24":
+                    _ = new ExerciseTwentyfour();
+                    break;
+                case "25":
+                    _ = new ExerciseTwentyfive();
+                    break;
+                case "26":
+                    _ = new ExerciseTwentysix();
+                    break;
+                case "27":
+                    _ = new ExerciseTwentyseven();
+                    break;
+                case "28":
+                    _ = new ExerciseTwentyeight();
+                    break;
+                case "29":
+                    _ = new ExerciseTwentynine();
+                    break;
                 default:
                     break;
             }

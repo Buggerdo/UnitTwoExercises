@@ -56,7 +56,7 @@ namespace UnitTwo
 
         public static bool IsYes()
         {
-            Console.WriteLine("\nPress any key to continue");
+            Console.WriteLine("Press any key to continue");
             Console.ReadKey();
             do
             {
@@ -72,6 +72,24 @@ namespace UnitTwo
                 {
                     return false;
                 } 
+            } while(true);
+        }
+
+        public static bool IsYes(string desc)
+        {
+            do
+            {
+                Console.Write(desc);
+                string awnser = Console.ReadLine().ToLower().Trim();
+                Console.Clear();
+                if(awnser == "y" || awnser == "yes" || awnser == "yup")
+                {
+                    return true;
+                }
+                else if(awnser == "n" || awnser == "no" || awnser == "nope")
+                {
+                    return false;
+                }
             } while(true);
         }
     }
