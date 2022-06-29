@@ -17,7 +17,7 @@ namespace UnitTwo
                 Console.Write("Enter some text: ");
                 string str = Console.ReadLine().Trim();
 
-                var charsToRemove = new string[] { "a", "e", "i", "o", "u" };
+                var charsToRemove = new string[] { "a", "A", "e", "E", "i", "I", "o", "O", "u", "U" };
                 foreach(var c in charsToRemove)
                 {
                     str = str.Replace(c, string.Empty);

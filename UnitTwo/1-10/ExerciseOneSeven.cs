@@ -11,21 +11,25 @@ namespace UnitTwo
         public ExerciseOneSeven()
         {
             ExOneSevenDesc();
-            Console.Write("Enter a boolean: ");
-            string boolean = Console.ReadLine().ToLower().Trim();
-            if(boolean == "true" || boolean == "t")
+
+            bool answer;
+
+            do
+            {
+                Console.Clear();
+                Console.Write("Enter a boolean: ");
+            } while(!Boolean.TryParse(Console.ReadLine().Trim() ,out answer));
+            
+            
+            if(answer)
             {
                 Console.WriteLine("You entered: True");
                 opp(false);
             }
-            else if(boolean == "false" || boolean == "f")
+            else
             {
                 Console.WriteLine("You entered: False");
                 opp(true);
-            }
-            else
-            {
-                Console.WriteLine("Not a bool");
             }
 
             static void opp(bool opp)

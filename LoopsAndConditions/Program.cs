@@ -81,12 +81,50 @@
 
 // do while
 
-int channelsWatched = 0;
-int boredomLevel = 5;
-do
-{
-    channelsWatched++;
-    Console.WriteLine(channelsWatched);
-    boredomLevel--;
-} while(boredomLevel > 0);
+//int channelsWatched = 0;
+//int boredomLevel = 5;
+//do
+//{
+//    channelsWatched++;
+//    Console.WriteLine(channelsWatched);
+//    boredomLevel--;
+////} while(boredomLevel > 0);
 
+//for(int i = 0; i < 10; i++)
+//{
+//    if(i == 5)
+//    {
+//        continue;
+//    }
+//    Console.WriteLine(i);
+//}
+
+//for(int i = 10; i > 0; i--)
+//{
+//    Console.WriteLine(i);
+//}
+
+
+//List<int> listOfInts = new List<int>() {1,2,3 };
+//foreach(var num in listOfInts)
+//{
+//    Console.WriteLine(num + num);
+//}
+
+//for(int i = 0; i < 3; i++)
+//{
+//    for(int j = 0; j < 4; j++)
+//    {
+//        Console.WriteLine(j);
+//    }
+//}
+
+for(int i = 0; i < 3; i++)
+{
+    Console.WriteLine($"First loop cariable = {i}");
+    for(int j = 0; j < 4; j++)
+    {
+        if(j == 2) continue;
+        Console.WriteLine($"Second loop variable = {j}");
+    }
+}

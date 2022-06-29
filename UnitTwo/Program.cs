@@ -110,6 +110,9 @@ namespace UnitTwo
                 case "29":
                     _ = new ExerciseTwentynine();
                     break;
+                case "30":
+                    _ = new ExerciseThirty();
+                    break;
                 default:
                     break;
             }
