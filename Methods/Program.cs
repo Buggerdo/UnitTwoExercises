@@ -1,5 +1,3 @@
-﻿
-
 
 Console.WriteLine(ReturnUserName("Troy"));
 

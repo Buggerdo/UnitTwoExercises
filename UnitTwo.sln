@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTwo", "UnitTwo\UnitTwo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsAndConditions", "LoopsAndConditions\LoopsAndConditions.csproj", "{9CCC2FA6-A958-473A-8121-0F25054006CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{2C9CCBB8-930C-4BEE-BA52-4DCEF7C08254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{2C9CCBB8-930C-4BEE-BA52-4DCEF7C08254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNotes", "RandomNotes\RandomNotes.csproj", "{F1DF72C2-174B-4737-8C07-F0167CD90ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomNotes", "RandomNotes\RandomNotes.csproj", "{F1DF72C2-174B-4737-8C07-F0167CD90ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
